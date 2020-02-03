@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+.title{
+   color: rgb(138, 193, 199);;
+   text-align: center;
+   font-size: 50px;
+}
+
+body{
+    background-color:  rgb(217, 242, 245);
+    margin: 0;
+}
+.site-header{
+    background-color:rgb(217, 242, 245);
+    padding: 20px;
+    color: white;
+}
+.site-navigation{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+.site-navigation-link{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.site-navigation-link:hover{
+    transition: 500ms;
+    color: pink;
+}
+
+.site-footer{
+    border-top: solid 1px grey;
+    padding: 20px;
+}
+
+.post{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    box-shadow: 10px 5px 5px rgb(138, 193, 199);
+    margin-bottom: 20px;
+}
+.titreArticle{
+    text-transform: uppercase;
+}
+.lienArticle{
+    text-decoration: none;
+    color: black;
+    
+}
+.lienArticle:hover{
+    transition: 500ms;
+    color: pink;
+}
+
+.tableau{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-shadow: 10px 5px 5px rgb(138, 193, 199);
+   
+     
+}
+.tableau th{
+    border-style: solid;
+    border-width: 1px;
+    margin: 0px;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+.tableau tr{
+    border-style: solid;
+    border-width: 1px;   
+}
+
+.tableau td{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.welcome{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.contenu{
+    width: 100%;
+    height: 100px;
+}
+.submit{
+    text-align: center;
+    margin: 25px;
+    
+    
+}
+.valid:hover{
+    transition: 500ms;
+    color: pink;
+}
+.valid{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(138, 193, 199);
+
+}
+.comments{
+    font-weight: bold;
+
+}
+.coms{
+    background-color: white;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+.dateTime{
+    text-align: right;
+}
+.user{
+    font-weight: bold;
+}
+.text{
+    width: 50%;
+    height: 50px;
+
+}
+.option{
+    width: 35%;
+    
+}
+.error404 img{
+    width:100% ;
+}
+
+
+.postImageContainer{
+   /* margin:0 auto ;*/
+    text-align: center ;
+}
+.imagePost{
+    width:50%;
+}
+
